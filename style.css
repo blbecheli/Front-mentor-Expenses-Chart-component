@@ -1,0 +1,178 @@
+:root {
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+}
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--Cream);
+    font-size: 18px;
+}
+
+
+
+.title {
+    background-color: var(--Soft-red);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 6% 34%;
+    padding: 1% 0%;
+    align-items: center;
+    margin-bottom: 2%;
+    height: 30%;
+}
+
+
+.title__balance{
+    margin-left: 5%;    
+}
+.title__texto{
+    color: white;
+    margin-bottom: 10%;  
+    font-size: 1rem;    
+}
+
+.title__valor{
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 5%;
+}
+
+.title__logo{
+    margin-right: 4%;
+}
+.spending{    
+    font-weight: 700;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 1.5rem;
+}
+
+.values {
+    background-color: var(--Very-pale-orange);
+    border-radius: 10px;
+    width: 30%;
+    margin: 2% 34%;    
+}
+
+
+.ul{
+    display: flex;
+    gap: .5rem;
+    list-style: none;    
+    padding: 0;
+    text-align: center;
+    padding: .5rem 0;
+    margin: 0 0;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+.grafico{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    padding: 0 1%;      
+}
+
+
+.grafico__valor{
+    background-color: var(--Dark-brown);
+    color: white;
+    font-weight: 400;
+    font-size: .8rem;
+    padding: 10%;
+    border-radius: 3px; 
+    width: fit-content;
+    margin-bottom: 8%;   
+    visibility: hidden;
+}
+
+.grafico:hover .grafico__valor{
+    visibility: visible;     
+}
+
+.grafico__barras{
+    background-color: var(--Soft-red);
+    border-radius: 5px;
+    width: 100%;    
+}
+
+.grafico__barras:hover{
+    background-color: var(--Cyan);
+}
+
+
+.grafico__legenda{
+    margin-top: 20%;
+    color: var(--Medium-brown);
+    font-size: .9rem;
+}
+
+
+
+.values__grafic:hover {
+    background-color: var(--Cyan);
+}
+
+hr{
+    background-color: var(--Cream);
+    margin: 5% 4%;
+}
+
+
+.values-total {
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.values-month{
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.total__texto{
+    color: var(--Medium-brown);
+}
+
+
+.values-porcento{
+    margin-top: 4%;
+    margin-right: 4%;
+}
+.total__valor{
+    color: var(--Dark-brown);
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 4%;
+}
+
+.total__porcento{
+    color: var(--Dark-brown);
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.attribution{
+    text-align: center;
+    color: var(--Dark-brown);
+    font-weight: 700;
+}
+
+
+
+
+
+
+
